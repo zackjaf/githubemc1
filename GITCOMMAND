@@ -36,23 +36,56 @@ Creating file in git and pushing to the VS
      CLONE function push all the files to the VS, not only the updated ones
 ***Push only one file to the VS******                                                    ANY MODIFICATON -----ADD------COMMIT=------PUSH
 
-      git pull                        it update all from git to VS    
+      git pull                        it update all the changes made  from git to VS    
 
 
 PUSHING FOLDER OR REPROSERY FROM VS to GITHUB
       
+cd..                   folder back
+cd newfolder name
+
+git init                                       change the folder into git repository
+
+git status
+
+1. git add .                                         add multiple file to remove untracked
+
+git status
+
+2. git commit -m "Created index. html and style.css"
+CREATE NEW REPOSITORY
+git remote add origin ((copy from github and paste in VS))
+
+git branch
+
+3. git push origin main
+
+git push origin master                or                  git branch -M main
+git branch
+
+git push origin main
 
 
+BRANCHES AND HOW BRANCHES IS WORKING
+ 
+ git branch -a
+
+git branch 1
+
+git pull                  
+
+git checkout gitbranch1                                     to change from main to different branch
+
+git add .
+git stauts
+git commit -m "xxxxxxxxxx"
+git push origin newbranch
 
 
+git checkout main
+git diff newbranchname
 
-
-
-
-
-
-
-
+ 
 
 
 
